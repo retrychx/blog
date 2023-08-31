@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://retrychx.com',
+	site: 'https://retrychx.github.io',
   base: '/blog',
 	integrations: [mdx(), sitemap()],
 });
